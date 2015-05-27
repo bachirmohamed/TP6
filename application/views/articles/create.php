@@ -3,7 +3,7 @@
 <?php echo validation_errors(); ?>
 <?php echo form_open('articles/create') ?>
 
-<label for="titre_article">Title</label>
+<label for="titre_article">Titre article</label>
 <input type="input" name="titre_article" /><br />
 
 <label for="texte_libre">Text</label>

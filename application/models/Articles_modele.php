@@ -29,7 +29,7 @@ public function set_articles()
         'texte' => $this->input->post('texte')
     );
 
-    return $this->db->insert('Article', $data);
+    return $this->db->insert('articles', $data);
 }
 
 
